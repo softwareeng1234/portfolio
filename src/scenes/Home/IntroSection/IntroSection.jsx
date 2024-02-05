@@ -14,7 +14,7 @@ const IntroSection = () => {
             LET ME <span className={s.purple}> INTRODUCE </span>{' '}
             MYSELF
           </h1>
-          {/* specializing in building exceptional digital experiences.  */}
+          {/* specializing in builmjjjding exceptional digital experiences.  */}
           <div className={s.description}>
             <p>
               I'm a Ui/Ux and Full Stack Developer  🚀 <br />
