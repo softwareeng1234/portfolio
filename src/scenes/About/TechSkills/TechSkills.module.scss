@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.techIcon {
+  font-size: 4rem;
+  margin: 15px;
+  padding: 2rem 4rem;
+  opacity: 0.93;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  vertical-align: middle;
+  text-align: center;
+  display: table;
+  box-shadow: 0 4px 5px 3px #85919c;
+  overflow: hidden;
+  transition: all 0.4s ease 0s;
+  line-height: 0;
+
+  &:hover {
+    transform: scale(1.05);
+    overflow: hidden;
+    box-shadow: 0 4px 4px 5px #ced7e0;
+  }
+}
+
+.techDesc {
+  padding-top: 1rem;
+  font-size: 0.8rem;
+}

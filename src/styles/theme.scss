@@ -1,0 +1,53 @@
+.light {
+  --txt: rgb(8, 48, 108);
+  --txt-secondary: #062c43;
+  --txt-sec-darker: #041723;
+  --bg-layout-home: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  --bg-home-section-main: none;
+  --bg-layout-base: linear-gradient(307deg, transparent 0%, transparent 57%, #ffffff 57%, #f8f8f8 100%), linear-gradient(to bottom, #ffffff 0%, #f8f8f8 100%);
+  --bg-primary: #fafafa;
+  --bg-active: #5591a9;
+  --bg-header: transparent;
+  --bg-footer: transparent;
+  --backdrop: rgba(0, 0, 0, 0.75);
+  --nav-active: #054569;
+  --logo-primary: #062c43;
+  --social-icon: #054569;
+  --social-shadow: #062c43;
+  --preloader: #fafafa;
+  --bg-modal: #fafafa;
+  --modal-border: none;
+  --modal-close: #fff ;
+  --modal-close-icon: #062c43;
+  --drawer-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+  --btn-primary-txt: #fff;
+  --btn-secondary-txt: #fff;
+  --tags-txt: #fff;
+  --toggle-theme: #000;
+}
+
+.dark {
+  --txt: #fff;
+  --txt-secondary: #ced7e0;
+  --bg-layout-home: linear-gradient(to left, RGB(00 20 41), RGB(00 00 00));
+  --bg-layout-base: linear-gradient(to left, RGB(00 20 41), RGB(00 00 00));
+  --bg-primary: #000c1a;
+  --bg-active: #5591a9;
+  --bg-header: rgba(33,32,56,0.84);
+  --bg-footer: linear-gradient(to left, RGB(00 20 41), RGB(00 00 00));
+  --backdrop: rgba(0, 0, 0, 0.75);
+  --nav-active: #ced7e0;
+  --logo-primary: #ced7e0;
+  --social-icon: #062c43;
+  --social-shadow: #ced7e0;
+  --preloader: #0b1f3a;
+  --bg-modal: #0b1f3a;
+  --modal-border: 1px solid rgba(0,0,0,.125);
+  --modal-close: #0b1f3a;
+  --modal-close-icon: #fff;
+  --drawer-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  --btn-primary-txt: #fff;
+  --tags-txt: #fff;
+  --btn-secondary-txt: #041723;
+  --toggle-theme: #fff;
+}
