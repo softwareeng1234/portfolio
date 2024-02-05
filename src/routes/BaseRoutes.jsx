@@ -12,9 +12,9 @@ const About = lazy(() =>
 const Projects = lazy(() =>
   import(/* webpackPrefetch: true */ '../scenes/Projects/Projects'),
 );
-const Resume = lazy(() =>
-  import(/* webpackPrefetch: true */ '../scenes/Resume/Resume'),
-);
+// const Resume = lazy(() =>
+//   import(/* webpackPrefetch: true */ '../scenes/Resume/Resume'),
+// );
 
 export const routes = {
   HOME: '/',
