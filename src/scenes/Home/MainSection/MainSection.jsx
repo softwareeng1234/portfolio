@@ -13,15 +13,18 @@ const MainSection = () => {
 
         <h1 className={s.mainTitle}>
           I'M
-          <strong className={s.mainName}> Imran Mohammed</strong>
+          <strong className={s.mainName}>  Mohammed Imran</strong>
         </h1>
 
         <div style={{ paddingTop: 50 }}>
           <Typewriter
             strings={[
               'Full Stack Developer',
-              'Ui/Ux Engineer',
+              'Front End Developer',
+              'Back End Developer',
+             
               'Software Engineer',
+              'Ui/Ux Engineer',
             ]}
             wrapperClassName={s.typewriterWrapper}
             cursorClassName={s.typewriterCursor}

@@ -11,7 +11,7 @@ const About = () => {
         <div className={s.about}>
           <div className={s.aboutDescription}>
             <h1 className={s.title}>
-             Ui/Ux  & <b className={s.purple}>Full stack developer</b>
+              <b className={s.purple}>Full stack developer</b>
             </h1>
             <AboutTextCard />
           </div>

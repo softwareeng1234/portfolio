@@ -1,9 +1,9 @@
 import s from './IntroSection.module.scss';
-import avatar from '../../../assets/avatar.svg';
 import { AiFillGithub } from 'react-icons/ai';
 import { FaTwitter, FaLinkedinIn } from 'react-icons/fa';
 import Tilt from 'react-parallax-tilt';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import newAvatar from '../../../assets/images/im2.jpg'; // Update this path
 
 const IntroSection = () => {
   return (
@@ -17,7 +17,7 @@ const IntroSection = () => {
           {/* specializing in builmjjjding exceptional digital experiences.  */}
           <div className={s.description}>
             <p>
-              I'm a Ui/Ux and Full Stack Developer  🚀 <br />
+              I'm a Full Stack Developer expert in front end and backend technologies  🚀 <br />
               specializing in building exceptional
               <i>
                 <b className={s.purple}> Web </b>
@@ -26,7 +26,7 @@ const IntroSection = () => {
               <br />
               <i>
                 <b className={s.purple}>
-                  JavaScript,AngularJS,Reactjs,Nodejs,Java,Springboot
+                  JavaScript,AngularJS,Reactjs,Nodejs,Java,Springboot,Python
                 </b>
               </i>{' '}
               and some other cool libraries
@@ -34,9 +34,38 @@ const IntroSection = () => {
           </div>
         </div>
 
-        <Tilt trackOnWindow={true}>
-          <LazyLoadImage alt="avatar" effect="blur" src={avatar} />
-        </Tilt>
+        {/* <Tilt trackOnWindow={true}>
+    <LazyLoadImage 
+      alt="avatar" 
+      effect="blur" 
+      src={newAvatar}
+      className="rounded-full" // Add this if you want the image to be circular
+    />
+  </Tilt> */}
+  <Tilt trackOnWindow={true}>
+    <div style={{
+      width: '300px',
+      height: '300px',
+      overflow: 'hidden',
+      borderRadius: '50%',
+      margin: '0 auto', // Centers the avatar if needed
+    }}>
+      <LazyLoadImage 
+        alt="avatar" 
+        effect="blur" 
+        src={newAvatar}
+        style={{
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+        }}
+      />
+    </div>
+  </Tilt>
+
+
+
+
       </div>
 
       <div className={s.introSocial}>
